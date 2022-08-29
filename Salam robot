@@ -1,0 +1,21 @@
+package SALAM_ROBOT;
+
+import java.util.Scanner;
+
+
+public class JavaApplication4 {
+
+  
+    public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);   
+        int numberOfPeople = read.nextInt();
+        
+        for (int i = 0; i < numberOfPeople; i++){
+            salam();
+        }
+
+    }
+    public static void salam() {
+        System.out.println("Salam!");
+    }
+}
